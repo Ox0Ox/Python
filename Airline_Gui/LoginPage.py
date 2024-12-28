@@ -2,7 +2,6 @@ from tkinter import *
 from PIL import ImageTk, Image
 import subprocess, sys, os
 import mysql.connector
-import hashlib
 from tkinter import messagebox
 
 class LoginPage:

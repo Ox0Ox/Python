@@ -109,9 +109,9 @@ class Widget(threading.Thread):
         root.config(background='Red')
         root.geometry('1366x760')
         root.resizable(0, 0)
-        root.iconbitmap(r'C:\Users\91776\OneDrive\Desktop\HP\Python\mic.png')
-        img = ImageTk.PhotoImage(Image.open(r"C:\Users\91776\OneDrive\Desktop\HP\Python\mic.png"))
-        panel = Label(root, image = img)
+        # root.iconbitmap(r'C:\Users\xlabb\Desktop\HP\Python\mic.png')
+        # img = ImageTk.PhotoImage(Image.open(r"C:\Users\xlabb\Desktop\HP\Python\mic.png"))
+        panel = Label(root)
         panel.pack(side = "bottom", fill = "both", expand = "no")
 
         self.compText = StringVar()
