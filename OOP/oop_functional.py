@@ -1,5 +1,5 @@
 class Flight():
-    def __init__(self, capacity):
+    def __init__(self, capacity = 5):
         self.c = capacity
         self.p = []
 
